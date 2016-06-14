@@ -158,7 +158,7 @@
 
             this.searchInput.on('focus click', function(){
                 $this.tokensContainer.addClass('Focused');
-                if($this.options.displayDropdownOnFocus && $this.options.datas == 'select'){
+                if($this.options.displayDropdownOnFocus){
                     $this.search();
                 }
             });
